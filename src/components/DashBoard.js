@@ -146,13 +146,13 @@ export default function Dashboard() {
             </Grid>
           </Grid>
           {/* Chart */}
-          <Grid item xs={12} md={6} lg={6}>
+          <Grid item xs={12} md={6} lg={6} style={{ position: "relative", float: "left", width: "50%" }}>
             <Paper className={fixedHeightPaper}>
               <Chart />
             </Paper>
           </Grid>
           {/* Chart */}
-          <Grid item xs={12} md={6} lg={6}>
+          <Grid item xs={12} md={6} lg={6} style={{ position: "relative", float: "right", width: "50%" }}>
             <Paper className={fixedHeightPaper}>
               <Chart />
             </Paper>
