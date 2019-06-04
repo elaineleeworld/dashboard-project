@@ -18,7 +18,7 @@ import {
   DonutLarge
 } from "@material-ui/icons";
 // import Dashboard from "@material-ui/core/Dashboard";
-import SearchBar from "./components/SearchBar";
+import PrimarySearchAppBar from "./components/PrimarySearchAppBar";
 import "@trendmicro/react-sidenav/dist/react-sidenav.css";
 
 class App extends Component {
@@ -132,7 +132,7 @@ class App extends Component {
             </NavItem>
           </SideNav.Nav>
         </SideNav>
-        <SearchBar />
+        <PrimarySearchAppBar />
       </div>
     );
   }
