@@ -19,6 +19,7 @@ import {
 } from "@material-ui/icons";
 // import Dashboard from "@material-ui/core/Dashboard";
 import PrimarySearchAppBar from "./components/PrimarySearchAppBar";
+import Dashboard from "./components/Dashboard";
 import "@trendmicro/react-sidenav/dist/react-sidenav.css";
 
 class App extends Component {
@@ -133,6 +134,7 @@ class App extends Component {
           </SideNav.Nav>
         </SideNav>
         <PrimarySearchAppBar />
+        <Dashboard />
       </div>
     );
   }
