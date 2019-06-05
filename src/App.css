@@ -34,6 +34,13 @@ main {
   background-color: "#fff";
 }
 
+@media only screen and (max-width: 600px) {
+  img,
+  #totals {
+    zoom: 0.5;
+  }
+}
+
 @media only screen and (device-width: 980px) and (orientation: portrait) {
   /* rules for iPad in portrait orientation */
   nav.sidenav {
