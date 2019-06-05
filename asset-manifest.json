@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/dashboard-project/static/css/main.04c37e74.chunk.css",
-    "main.js": "/dashboard-project/static/js/main.f1f81d7f.chunk.js",
-    "main.js.map": "/dashboard-project/static/js/main.f1f81d7f.chunk.js.map",
+    "main.css": "/dashboard-project/static/css/main.56d5c5d8.chunk.css",
+    "main.js": "/dashboard-project/static/js/main.48f1ff43.chunk.js",
+    "main.js.map": "/dashboard-project/static/js/main.48f1ff43.chunk.js.map",
     "runtime~main.js": "/dashboard-project/static/js/runtime~main.15ba4c05.js",
     "runtime~main.js.map": "/dashboard-project/static/js/runtime~main.15ba4c05.js.map",
-    "static/css/2.6749d01e.chunk.css": "/dashboard-project/static/css/2.6749d01e.chunk.css",
+    "static/css/2.54f4df3e.chunk.css": "/dashboard-project/static/css/2.54f4df3e.chunk.css",
     "static/js/2.fdc84cc0.chunk.js": "/dashboard-project/static/js/2.fdc84cc0.chunk.js",
     "static/js/2.fdc84cc0.chunk.js.map": "/dashboard-project/static/js/2.fdc84cc0.chunk.js.map",
     "index.html": "/dashboard-project/index.html",
-    "precache-manifest.eab85cad827a64de55b28f777d968318.js": "/dashboard-project/precache-manifest.eab85cad827a64de55b28f777d968318.js",
+    "precache-manifest.eb7ee6c3317ac2b7b47c43322922acd7.js": "/dashboard-project/precache-manifest.eb7ee6c3317ac2b7b47c43322922acd7.js",
     "service-worker.js": "/dashboard-project/service-worker.js",
-    "static/css/2.6749d01e.chunk.css.map": "/dashboard-project/static/css/2.6749d01e.chunk.css.map",
-    "static/css/main.04c37e74.chunk.css.map": "/dashboard-project/static/css/main.04c37e74.chunk.css.map",
-    "static/media/graph1.png": "/dashboard-project/static/media/graph1.89e0f115.png",
-    "static/media/graph2.png": "/dashboard-project/static/media/graph2.dc808136.png"
+    "static/css/2.54f4df3e.chunk.css.map": "/dashboard-project/static/css/2.54f4df3e.chunk.css.map",
+    "static/css/main.56d5c5d8.chunk.css.map": "/dashboard-project/static/css/main.56d5c5d8.chunk.css.map",
+    "static/media/graph1.png": "/dashboard-project/static/media/graph1.4eb06d9f.png",
+    "static/media/graph2.png": "/dashboard-project/static/media/graph2.2db4b5d4.png"
   }
 }
