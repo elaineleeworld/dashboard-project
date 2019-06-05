@@ -127,7 +127,7 @@ export default function Dashboard() {
           <span style={{ fontSize: "12px", color: "grey", paddingBottom: "10px" }}>dashboard & statistics</span>
           <Grid container spacing={3}>
             <Grid item xs={12}>
-              <Paper className={classes.paper} style={{ marginTop: "20px" }}>
+              <Paper className={classes.paper} style={{ marginTop: "20px" }} id="totals">
                 <Totals />
               </Paper>
             </Grid>

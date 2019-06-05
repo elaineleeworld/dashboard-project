@@ -33,3 +33,23 @@ main {
 .color-active {
   background-color: "#fff";
 }
+
+@media only screen and (device-width: 980px) and (orientation: portrait) {
+  /* rules for iPad in portrait orientation */
+  nav.sidenav {
+    height: 100vh;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* iPhone, Android rules here */
+  img {
+    zoom: 0.5;
+  }
+  nav.sidenav {
+    height: 820px;
+  }
+  #totals {
+    zoom: 0.5;
+  }
+}
