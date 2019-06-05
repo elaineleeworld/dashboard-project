@@ -122,13 +122,12 @@ export default function Dashboard() {
       <AppBar position="absolute" className={clsx(classes.appBar, open && classes.appBarShift)} />
 
       <main className={classes.content}>
-        <h2 style={{ fontSize: "32px", color: "grey", marginBottom: "0px", marginLeft: "155px" }}>Dashboard</h2>
-        <span style={{ fontSize: "12px", color: "grey", marginLeft: "155px" }}>dashboard & statistics</span>
-
-        <Container maxWidth="lg" className={classes.container} style={{ paddingLeft: "92px" }}>
+        <Container maxWidth="lg" className={classes.container} style={{ paddingLeft: "62px" }}>
+          <h2 style={{ fontSize: "32px", color: "grey", margin: "0px" }}>Dashboard</h2>
+          <span style={{ fontSize: "12px", color: "grey", paddingBottom: "10px" }}>dashboard & statistics</span>
           <Grid container spacing={3}>
             <Grid item xs={12}>
-              <Paper className={classes.paper}>
+              <Paper className={classes.paper} style={{ marginTop: "20px" }}>
                 <Totals />
               </Paper>
             </Grid>

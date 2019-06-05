@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
-import SideNav, { Toggle, Nav, NavItem, NavIcon, NavText } from "@trendmicro/react-sidenav";
+import SideNav, { NavItem, NavIcon, NavText } from "@trendmicro/react-sidenav";
 // import CalendarTodayRounded from "@material-ui/icons/CalendarTodayRounded";
 import {
   CalendarToday,
@@ -27,13 +27,19 @@ class App extends Component {
     super(props);
 
     this.state = {
-      hover: false,
+      categoryIn: false,
       color: ""
     };
   }
   colorChange = () => {
     this.setState({
       color: "#fff"
+    });
+  };
+  colorChangeBack = navItemPicked => {
+    this.setState({
+      color: "#13161C",
+      categoryIn: false
     });
   };
   render() {
@@ -46,7 +52,7 @@ class App extends Component {
           }}
         >
           <SideNav.Toggle />
-          <SideNav.Nav defaultSelected="calendar">
+          <SideNav.Nav eventKey="calendar">
             <NavItem eventKey="calendar">
               <NavIcon>
                 <CalendarToday style={{ fontSize: "1em", color: "#29A5D8" }} />
@@ -59,11 +65,13 @@ class App extends Component {
               </NavIcon>
               <NavText style={{ color: "#7F96BA" }}>Documentation</NavText>
             </NavItem>
-            <NavItem eventKey="dashboard" style={{ backgroundColor: this.state.color }} onClick={this.colorChange}>
+            <NavItem eventKey="dashboard">
               <NavIcon>
                 <Home style={{ fontSize: "1.1em", color: "#29A5D8" }} />
               </NavIcon>
-              <NavText style={{ color: "#7F96BA" }}>Dashboard</NavText>
+              <NavText style={{ color: "#7F96BA" }} onClick={event => this.colorChange(event.target)}>
+                Dashboard
+              </NavText>
             </NavItem>
             <NavItem eventKey="admin plugins">
               <NavIcon>
