@@ -25,3 +25,7 @@ form {
   margin-left: 280px;
   position: absolute;
 }
+
+main {
+  height: 100%;
+}

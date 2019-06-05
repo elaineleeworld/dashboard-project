@@ -40,7 +40,7 @@ class App extends Component {
     return (
       <div className="App">
         <SideNav
-          style={{ backgroundColor: "#1F242D", height: "820px" }}
+          style={{ backgroundColor: "#1F242D", height: "860px" }}
           onSelect={selected => {
             // Add your code here
           }}
