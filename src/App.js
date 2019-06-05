@@ -27,53 +27,57 @@ class App extends Component {
     super(props);
 
     this.state = {
-      categoryIn: false,
-      color: ""
+      clicked: false
     };
   }
-  colorChange = () => {
-    this.setState({
-      color: "#fff"
-    });
+
+  toggleColor = () => {
+    console.log("clicked");
+    // if (event.target === "sidenav---navitem") {
+    //   event.target.style.backgroundColor = "#fff";
+    // }
   };
-  colorChangeBack = navItemPicked => {
-    this.setState({
-      color: "#13161C",
-      categoryIn: false
-    });
-  };
+
   render() {
+    const { clicked } = this.state;
     return (
       <div className="App">
         <SideNav
-          style={{ backgroundColor: "#1F242D", height: "860px" }}
+          style={{ backgroundColor: "#1F242D", height: "100vh" }}
           onSelect={selected => {
             // Add your code here
           }}
         >
           <SideNav.Toggle />
           <SideNav.Nav eventKey="calendar">
-            <NavItem eventKey="calendar">
+            <NavItem eventKey="calendar" onClick={() => this.toggleColor()}>
               <NavIcon>
                 <CalendarToday style={{ fontSize: "1em", color: "#29A5D8" }} />
               </NavIcon>
               <NavText style={{ color: "#7F96BA" }}>Calendar</NavText>
             </NavItem>
-            <NavItem eventKey="documentation">
+            <NavItem
+              eventKey="documentation"
+              // style={{ backgroundColor: clicked ? "#fff" : "#1F242D" }}
+              // // onClick={event => this.toggleColor(event.target)}
+              // onClick={event => this.toggleColor(event)}
+            >
               <NavIcon>
                 <Description style={{ fontSize: "1.1em", color: "#29A5D8" }} />
               </NavIcon>
               <NavText style={{ color: "#7F96BA" }}>Documentation</NavText>
             </NavItem>
-            <NavItem eventKey="dashboard">
+            <NavItem
+              eventKey="dashboard"
+              // style={{ backgroundColor: clicked ? "#fff" : "#1F242D" }}
+              // onClick={event => this.toggleColor(event.target)}
+            >
               <NavIcon>
                 <Home style={{ fontSize: "1.1em", color: "#29A5D8" }} />
               </NavIcon>
-              <NavText style={{ color: "#7F96BA" }} onClick={event => this.colorChange(event.target)}>
-                Dashboard
-              </NavText>
+              <NavText style={{ color: "#7F96BA" }}>Dashboard</NavText>
             </NavItem>
-            <NavItem eventKey="admin plugins">
+            <NavItem eventKey="admin plugins" s>
               <NavIcon>
                 <Whatshot style={{ fontSize: "1.1em", color: "#29A5D8" }} />
               </NavIcon>

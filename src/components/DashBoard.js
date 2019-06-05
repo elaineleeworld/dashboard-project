@@ -122,7 +122,7 @@ export default function Dashboard() {
       <AppBar position="absolute" className={clsx(classes.appBar, open && classes.appBarShift)} />
 
       <main className={classes.content} style={{ height: "100%" }}>
-        <Container maxWidth="lg" className={classes.container} style={{ paddingLeft: "62px" }}>
+        <Container maxWidth="lg" className={classes.container} style={{ paddingLeft: "82px" }}>
           <h2 style={{ fontSize: "32px", color: "grey", margin: "0px" }}>Dashboard</h2>
           <span style={{ fontSize: "12px", color: "grey", paddingBottom: "10px" }}>dashboard & statistics</span>
           <Grid container spacing={3}>

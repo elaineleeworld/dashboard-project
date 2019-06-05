@@ -145,7 +145,7 @@ function PrimarySearchAppBar() {
             <MenuIcon />
           </IconButton>
           <Typography className={classes.title} variant="h6" noWrap />
-          <div className={classes.search} style={{ marginLeft: "250px" }}>
+          <div className={classes.search} style={{ marginLeft: "20px" }}>
             <div className={classes.searchIcon}>
               <SearchIcon />
             </div>
