@@ -46,11 +46,10 @@ class App extends Component {
     if (this.state.active === position) {
       return "#fff";
     }
-    return "";
+    return "#1F242D";
   };
 
   render() {
-    const { clicked } = this.state;
     return (
       <div className="App">
         <SideNav
