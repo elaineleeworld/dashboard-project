@@ -32,9 +32,21 @@ export default function Orders() {
       <Table size="small">
         <TableHead>
           <TableRow>
-            <TableCell style={{ border: "none", color: "black", fontSize: "30px", textAlign: "center" }}>597</TableCell>
-            <TableCell style={{ border: "none", color: "black", fontSize: "30px", textAlign: "center" }}>16.6M$</TableCell>
-            <TableCell style={{ border: "none", color: "black", fontSize: "30px", textAlign: "center" }}>7.5K</TableCell>
+            <TableCell
+              style={{ border: "none", borderRight: " 1px solid lightgrey", color: "black", fontSize: "30px", textAlign: "center" }}
+            >
+              597
+            </TableCell>
+            <TableCell
+              style={{ border: "none", borderRight: " 1px solid lightgrey", color: "black", fontSize: "30px", textAlign: "center" }}
+            >
+              16.6M$
+            </TableCell>
+            <TableCell
+              style={{ border: "none", borderRight: " 1px solid lightgrey", color: "black", fontSize: "30px", textAlign: "center" }}
+            >
+              7.5K
+            </TableCell>
             <TableCell style={{ border: "none", color: "black", fontSize: "30px", textAlign: "center" }}>+48%</TableCell>
           </TableRow>
           <TableRow>

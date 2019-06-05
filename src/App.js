@@ -40,7 +40,7 @@ class App extends Component {
     return (
       <div className="App">
         <SideNav
-          style={{ backgroundColor: "#1F242D" }}
+          style={{ backgroundColor: "#1F242D", height: "820px" }}
           onSelect={selected => {
             // Add your code here
           }}
@@ -130,6 +130,12 @@ class App extends Component {
                 <DonutLarge style={{ fontSize: "1.1em", color: "red" }} />
               </NavIcon>
               <NavText style={{ color: "#7F96BA" }}>HelpDesk Redesign</NavText>
+            </NavItem>
+            <NavItem eventKey="sony board meeting">
+              <NavIcon>
+                <DonutLarge style={{ fontSize: "1.1em", color: "purple" }} />
+              </NavIcon>
+              <NavText style={{ color: "#7F96BA" }}>Sony Board Meeting</NavText>
             </NavItem>
           </SideNav.Nav>
         </SideNav>

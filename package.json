@@ -2,7 +2,7 @@
   "name": "dashboard-project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/elaineleeworld/dashboard-project",
+  "homepage": "https://elaineleeworld.github.io/dashboard-project/",
   "dependencies": {
     "@material-ui/core": "^4.0.2",
     "@material-ui/icons": "^4.0.1",
