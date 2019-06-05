@@ -46,7 +46,7 @@ class App extends Component {
     if (this.state.active === position) {
       return "#fff";
     }
-    return "#1F242D";
+    return "";
   };
 
   render() {
