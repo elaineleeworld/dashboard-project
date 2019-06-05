@@ -125,25 +125,25 @@ class App extends Component {
               </NavIcon>
               <NavText style={{ color: "#7F96BA" }}>Plugins</NavText>
             </NavItem>
-            <NavItem eventKey="pages">
+            <NavItem eventKey="pages" style={{ backgroundColor: "#1F242D" }}>
               <NavIcon>
                 <Note style={{ fontSize: "1.1em", color: "#29A5D8" }} />
               </NavIcon>
               <NavText style={{ color: "#7F96BA" }}>Pages</NavText>
             </NavItem>
-            <NavItem eventKey="executive meeting">
+            <NavItem eventKey="executive meeting" style={{ backgroundColor: "#1F242D" }}>
               <NavIcon>
                 <DonutLarge style={{ fontSize: "1.1em", color: "orange" }} />
               </NavIcon>
               <NavText style={{ color: "#7F96BA" }}>Executive Meeting</NavText>
             </NavItem>
-            <NavItem eventKey="helpdesk redesign">
+            <NavItem eventKey="helpdesk redesign" style={{ backgroundColor: "#1F242D" }}>
               <NavIcon>
                 <DonutLarge style={{ fontSize: "1.1em", color: "red" }} />
               </NavIcon>
               <NavText style={{ color: "#7F96BA" }}>HelpDesk Redesign</NavText>
             </NavItem>
-            <NavItem eventKey="sony board meeting">
+            <NavItem eventKey="sony board meeting" style={{ backgroundColor: "#1F242D" }}>
               <NavIcon>
                 <DonutLarge style={{ fontSize: "1.1em", color: "purple" }} />
               </NavIcon>
