@@ -47,7 +47,7 @@ main {
     zoom: 0.5;
   }
   nav.sidenav {
-    height: 820px;
+    height: 100vh;
   }
   #totals {
     zoom: 0.5;
